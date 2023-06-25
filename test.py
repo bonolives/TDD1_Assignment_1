@@ -39,9 +39,11 @@ def multiply(a, b):
     #assert multiply(3, 3) == 9
 
 
-# Updating multiply function making sure not to break test 1 and test 2
-# def multiply(a, b):
-# return a * b
+'''
+Updating multiply function making sure not to break test 1 and test 2
+def multiply(a, b):
+    return a * b
+'''
 
 # FOURTH TEST CYCLE
 
@@ -51,11 +53,13 @@ def multiply(a, b):
     #assert multiply(4, 4) == 16
 
 
-# Making fourth test cycle green
+'''
+Making fourth test cycle green
 
 
-#def multiply(a, b):
-    #return a * b
+def multiply(a, b):
+    return a * b
+'''
 
 # Fifth Test Cycle
 
@@ -63,4 +67,10 @@ def multiply(a, b):
 
 def test5_multiply():
     assert multiply(23,45) == 23*45
+
+# Making fifth test green
+
+def multiply(a,b):
+    return a*b
+
 
